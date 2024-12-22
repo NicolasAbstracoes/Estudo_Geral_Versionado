@@ -1,11 +1,15 @@
-numero_original = int(input('Digite um número entre 0 e 9999: '))
+nome = str(input('Digite um seu nome completo: '))
 
-# Separar os dígitos
-milhar = numero_original // 1000
-centena = (numero_original % 1000) // 100
-dezena = (numero_original % 100) // 10
-unidade = numero_original % 10
-print(milhar)
-print(centena)
-print(dezena)
-print(unidade)
+nome_maior = nome.upper()
+nome_menor = nome.lower()
+nome_num = nome.replace(" " ,"")
+nome_num_Primeiro = nome.split()
+
+
+print(nome)
+print(nome_maior)
+print(nome_menor)
+print(len(nome_num))
+print(len(nome_num_Primeiro[0]))
+
+
