@@ -1,3 +1,5 @@
+#Manipulação de txt
+
 nome = str(input('Digite um seu nome completo: '))
 
 nome_maior = nome.upper()
